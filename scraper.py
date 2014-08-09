@@ -90,4 +90,5 @@ for _oid in range(oid,800):
             #print "We got something!"
             scraperwiki.sqlite.save(['Candidate_Name'], data, table_name='Candidates')
         else:
+            pass
             #print "We got nothin"
